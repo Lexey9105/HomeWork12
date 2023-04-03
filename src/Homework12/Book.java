@@ -17,5 +17,8 @@ public class Book {
     public void setName(String name){this.name=name;}
     public void setPublisher(int publisher){this.publisher=publisher;}
 
+    public Author getWriter(){return writer;}
+    public void getWriter(Author writer){this.writer=writer;}
+
 
 }
