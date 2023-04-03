@@ -18,7 +18,7 @@ public class Book {
     public void setPublisher(int publisher){this.publisher=publisher;}
 
     public Author getWriter(){return writer;}
-    public void getWriter(Author writer){this.writer=writer;}
+    public void setWriter(Author writer){this.writer=writer;}
 
 
 }
